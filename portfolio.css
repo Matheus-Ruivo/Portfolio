@@ -42,7 +42,20 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     font-size: 58px;  
-    margin: 0;  
+    margin: 0;
+    line-height: 1.0;
+}
+
+.frasec {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 58px;  
+    margin: 0;
+    line-height: 1.0;
+}
+
+.frasec u {
+    text-decoration-thickness: 3.5px;
 }
 
 .frasenome {
@@ -50,6 +63,7 @@ body {
     color: #ffffff;
     font-size: 93px;  
     margin: 0;
+    line-height: 1.0;
 }
 
 .texto {
@@ -62,4 +76,35 @@ body {
 
 img {
     margin-top: 3%;
+}
+
+.linha {
+    margin-top: 7%;
+}
+
+.rodape {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 1.7%;
+    height: 8%;
+    display: flex;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rodape p {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-left: 4%;
+}
+
+.contato {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
 }
